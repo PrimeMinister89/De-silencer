@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">De-silencer</string>
+    <string name="DisplayStatus">状态：监控中</string>
+    <string name="app_title">De-silencer</string>
+    <string name="button_text_list">监控列表</string>
+    <string name="button_text_log">监控日志</string>
+    <string name="fun_add">添加对象</string>
+    <string name="contact_name">联系人姓名</string>
+    <string name="contact_number">联系人电话</string>
+</resources>
