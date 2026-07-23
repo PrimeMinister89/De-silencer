@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠️ 核心提醒：请务必填写对方在你微信上的【准确备注名或昵称】，一字不差，否则系统无法成功识别并拦截！"
+        android:textColor="#FF5722"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etWechatName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="微信备注名 (如: 相亲相爱的老爸)"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="#1A000000" />
+
+</LinearLayout>
